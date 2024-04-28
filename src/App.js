@@ -8,6 +8,17 @@ import StudentLogin from './pages/stu-login';
 import LecturerDash from './pages/lecdash';
 import StudentSignup from './pages/stu-signup';
 import LecHome from './pages/lec-home';
+import AnnouceForm from './components/annouce-form';
+import AssignForm from './components/assign-form';
+import GradeForm from './components/grade-form';
+import Disciplinary from './components/disciplinary';
+import GradeBook from './components/gradebook';
+import MessageForm from './components/message-form';
+import Barchat from './components/barchat';
+import Piechat from './components/piechart';
+import ScheduleForm from './components/schedule';
+import AllAssignment from './components/all-assignment';
+import ViewSchedule from './components/view-schedule';
 
 function App() {
   return (
@@ -23,9 +34,22 @@ function App() {
           <Route path='/stusignup' element={<StudentSignup/>} />
           <Route path='/studash' element={<StudentDash/>} />
           <Route path='/lecdash' element={<LecturerDash/>} />
+          <Route path='/addgrade' element={<GradeForm/>} />
+          <Route path='/adddisc' element={<Disciplinary/>} />
+          <Route path='/addassign' element={<AssignForm/>} />
+          <Route path='/addmessage' element={<MessageForm/>} />
+          <Route path='/gradebook' element={<GradeBook/>} />
+          <Route path='/addannouce' element={ <AnnouceForm/>} />
+          <Route path='/barchat' element={  <Barchat/>} />
+          <Route path='/piechat' element={  <Piechat/>} />
+          <Route path='/schedule' element={  <ScheduleForm/>} />
+          <Route path='/allassign' element={  <AllAssignment/>} />
+          <Route path='/viewschedule' element={  <ViewSchedule/>}/>
+
         </Routes>
       </BrowserRouter>
       
+   
     </div>
     
   );

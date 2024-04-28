@@ -1,0 +1,40 @@
+ <section class="grid md:grid-cols-2 xl:grid-cols-2 xl:grid-rows-2 xl:grid-flow-col gap-6"><a class="bg-gray-100 flex-grow text-black border-l-8 border-purple-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12"
+  href="#">
+  Electrical Engineering
+  <div class="text-gray-500 font-thin text-sm">
+      <span>Topics: 40</span>
+      <span>MCQs: 9584</span>
+  </div>
+</a>
+<a class="bg-gray-100 flex-grow text-black border-l-8 border-purple-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12"
+  href="#">
+  Electronics and Communication Engineering
+  <div class="text-gray-500 font-thin text-sm">
+      <span>Topics: 8</span>
+      <span>MCQs: 2576</span>
+  </div>
+</a>
+<a class="bg-gray-100 flex-grow text-black border-l-8 border-purple-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12"
+  href="#">
+  Electronics and Telecommunication Engineering
+  <div class="text-gray-500 font-thin text-sm">
+      <span>Topics: 5</span>
+      <span>MCQs: 1739</span>
+  </div>
+</a>
+<a class="bg-gray-100 flex-grow text-black border-l-8 border-purple-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12"
+  href="#">
+  Biomedical Engineering
+  <div class="text-gray-500 font-thin text-sm">
+      <span>Topics: 1</span>
+      <span>MCQs: 217</span>
+  </div>
+</a>
+<a class="bg-gray-100 flex-grow text-black border-l-8 border-purple-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12"
+  href="#">
+  Manufacturing Engineering
+  <div class="text-gray-500 font-thin text-sm">
+      <span>Topics: 1</span>
+      <span>MCQs: 154</span>
+  </div>
+</a>
